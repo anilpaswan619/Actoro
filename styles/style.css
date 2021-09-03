@@ -1,0 +1,226 @@
+/* CSS for Sidebar menu section */
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.outer-circlr {
+  background-color: whitesmoke;
+  max-width: 25%;
+
+
+}
+.content-container {
+  text-align: center;
+}
+.heart-img {
+  width: 4vw;
+  margin-bottom: 3%;
+}
+.brand-name {
+  font-weight: bold;
+  font-size: 3vw;
+  color: rgb(238, 1, 120);
+}
+
+.rule {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+
+}
+.post-link {
+  text-align: center;
+  padding-top: 13%;
+  padding-bottom: 15%; 
+}
+.link-btn {
+  background-color: rgb(238, 1, 120);
+  color: white;
+  text-decoration: none;
+  font-size: 2vw;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 50px;
+  box-shadow: 4px 10px 15px rgb(194, 122, 158); 
+}
+.link-btn:hover {
+  color: rgba(58, 9, 9, 0.986);
+  background-color:white;
+}
+.menu-content ul li {
+  list-style-type: none;
+}
+.menu-icon {
+  padding:6%;
+  color:rgb(59, 86, 134);
+  font-size: 1.6vw;
+}
+.menu-icon:hover {
+  color:rgb(238, 1, 120);
+}
+.menu-item {
+  margin-left: 1vw;
+}
+/* CSS for Sidebar footer section */
+.footer-section{
+  margin-top: 23%;
+}
+.footer-section ul li {
+  display: inline-block;
+  list-style-type: none;
+  color: rgb(59, 86, 134);
+  padding:1%;
+  font-size: 1vw;
+}
+.footer-section ul li:hover {
+  color:rgb(238, 1, 120);
+}
+/* CSS for Right side content section */
+.right-side-content {
+  max-width: 75%!;
+}
+.top-content {
+  display: flex;
+}
+.sidebar-menu {
+  display: flex;
+}
+.discover-content{
+  font-size: 2vw;
+  color:rgba(58, 9, 9, 0.986);
+  padding: 2%;
+  display:flex;
+}
+.discover-heading {
+  font-size: 2.5vw;
+}
+.search-icon {
+  color: rgb(238, 1, 120);
+  padding-top: 2%;
+  margin-left: -5%;
+  font-size: 2vw;
+}
+.search-icon:hover {
+  color:rgba(58, 9, 9, 0.986);
+}
+
+.input-field {
+  padding: 2%;
+  min-width: 46%; 
+  margin-left: 2%;
+}
+.form-input {
+  border:none;
+  border-radius: 50px;
+  background-color: rgb(248, 238, 240);
+}
+.form-control:focus{
+  box-shadow: none;
+  border: 1px solid rgb(238, 1, 120);
+}
+.heart-img-icon{
+  padding: 2%;
+  width: 5vw;
+  margin-left: 3%;
+}
+.img-icon:hover {
+box-shadow: 4px 8px 15px rgb(204, 68, 136);
+border-radius: 50px;
+cursor: pointer;
+}
+.desk-icons{
+  padding: 2%;
+  color: rgb(238, 1, 120);
+  font-size: 1.8vw;
+  margin-top: -4px;
+}
+/* CSS for Right side buttons section */
+.btns-container {
+  display: flex;
+}
+.discover-link {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 3%;
+  margin-bottom: 8%;
+}
+.link-btns {
+  background-color: rgb(238, 1, 120);
+  color: white;
+  text-decoration: none;
+  font-size: 1.8vw;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-radius: 50px;
+  box-shadow: 4px 10px 15px rgb(194, 122, 158); 
+}
+.link-btns:hover {
+  color: rgba(58, 9, 9, 0.986);
+  background-color:white;
+}
+.non-active-btn {
+  background-color:whitesmoke; color:black
+}
+#icon-active-btn {
+  color:rgb(238, 1, 120);
+}
+/* CSS for Images card section */
+
+.card {
+  border: none;
+}
+.card-text {
+  color:rgb(238, 1, 120);
+  font-weight: bold;
+}
+.side-img-icon {
+  max-width: 20px;
+  margin-left: 30%;
+}
+.img-bottom-text {
+  font-weight: normal;
+  font-size: 10px;
+  margin-left: 40%;
+  background-color:rgb(238, 1, 120);
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 50px;
+  opacity: 0.6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS for responsiveness */
+
+@media screen and (max-width: 900px) {
+  .search-icon {
+    padding-top: 5%;
+  }
+  .discover-content {
+    padding-top: 6%;
+  }
+  .desk-icons{
+   margin-top: 8px;
+  }
+  .btns-container {
+    display: block;
+  }
+}
