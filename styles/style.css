@@ -100,6 +100,9 @@
 .mobile-menu {
   display: none;
 }
+/* .closebtnn {
+  display: none;
+} */
 .search-icon {
   color: rgb(238, 1, 120);
   padding-top: 2%;
@@ -221,8 +224,6 @@ cursor: pointer;
   opacity: 0.6;
 }
 
-
-
 /* CSS for responsiveness */
 
 @media only screen and (min-width: 275px) and (max-width: 800px) {
@@ -240,7 +241,7 @@ cursor: pointer;
      display: none;
   }
 }
-@media only screen and (min-width: 500px) and (max-width: 991px) {
+@media only screen and (min-width: 275px) and (max-width: 991px) {
   .card {
     width: 14rem;
   }
@@ -251,7 +252,7 @@ cursor: pointer;
     margin-bottom: 0.8%;
   }
 }
-@media only screen and (min-width: 500px) and (max-width: 991px) {
+@media only screen and (min-width: 275px) and (max-width: 991px) {
   .side-img-icon {
     margin: 0 auto!important;
   }
@@ -272,17 +273,25 @@ cursor: pointer;
   }
   .mobile-menu {
     display: block;
-    padding: 2%;
   }
-  .closebtn {
+  .close-btn {
     color:rgb(238, 1, 120);
   }
-  .closebtn:hover {
+  .close-btn:hover {
     color:rgba(58, 9, 9, 0.986);
   }
   .mobile-menu a {
     text-decoration: none;
   }
+  .mobile-menu-size {
+    font-weight: bold;
+    font-size: 5vh;
+  }
+}
+@media only screen and (min-width:600px) and (max-width: 900px) {
+.search-icon {
+  margin-top: -2%;
+}
 }
 @media screen and (max-width: 900px) {
   .search-icon {
@@ -298,3 +307,12 @@ cursor: pointer;
     display: block;
   }
 }
+
+
+
+
+
+
+
+
+
