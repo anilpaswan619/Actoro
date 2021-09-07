@@ -100,6 +100,9 @@
 .mobile-menu {
   display: none;
 }
+.mmenu {
+  display: none;
+}
 .search-icon {
   color: rgb(238, 1, 120);
   padding-top: 2%;
@@ -261,6 +264,9 @@ cursor: pointer;
   .mobile-menu {
     display: block;
   }
+  .mmenu {
+    display: block;
+  }
   .close-btn {
     color:rgb(238, 1, 120);
   }
@@ -269,10 +275,6 @@ cursor: pointer;
   }
   .mobile-menu a {
     text-decoration: none;
-  }
-  .mobile-menu-size {
-    font-weight: bold;
-    font-size: 5vh;
   }
 }
 @media only screen and (min-width: 275px) and (max-width: 800px) {
@@ -331,8 +333,44 @@ cursor: pointer;
 
 
 
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: whitesmoke;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
 
+#close-btnn {
+  color: rgb(238, 1, 120);
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
 
+.sidenav a:hover {
+  color: rgba(58, 9, 9, 0.986);
+}
 
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
 
-
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
