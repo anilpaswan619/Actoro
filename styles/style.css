@@ -100,26 +100,23 @@
 .mobile-menu {
   display: none;
 }
-/* .closebtnn {
-  display: none;
-} */
 .search-icon {
   color: rgb(238, 1, 120);
   padding-top: 2%;
   margin-left: -5%;
-  font-size: 2vw;
+  font-size: 1.6vw;
 }
 .search-icon:hover {
   color:rgba(58, 9, 9, 0.986);
 }
 .input-field {
   padding: 2%;
-  min-width: 46%; 
-  margin-left: 2%;
+  min-width: 40%; 
+  margin-left: 1%;
 }
 .form-input {
   border:none;
-  border-radius: 50px;
+  border-radius: 90px!important;
   background-color: rgb(248, 238, 240);
 }
 .form-control:focus{
@@ -136,22 +133,16 @@ box-shadow: 4px 8px 15px rgb(204, 68, 136);
 border-radius: 50px;
 cursor: pointer;
 }
-.desk-icons{
-  padding: 2%;
-  color: rgb(238, 1, 120);
-  font-size: 1.8vw;
-  margin-top: -4px;
-}
 
 /* CSS for Right side buttons section */
 
 .btns-container {
-  display: flex;
+  display: inline-flex;
+  width: 100%;
 }
 .discover-link {
   text-align: center;
   width: 100%;
-  height: 100%;
   margin-top: 3%;
   margin-bottom: 8%;
 }
@@ -188,13 +179,13 @@ cursor: pointer;
 }
 .one-edge-shadow {
   -webkit-box-shadow: 0 8px 6px -6px #C27A9E;
-     -moz-box-shadow: 0 8px 6px -6px #C27A9E;
-          box-shadow: 0 8px 6px -6px #C27A9E;
+  -moz-box-shadow: 0 8px 6px -6px #C27A9E;
+  box-shadow: 0 8px 6px -6px #C27A9E;
 }
 .one-edge-shadow:hover {
   -webkit-box-shadow: 0 10px 6px -6px rgb(238, 1, 120);
-     -moz-box-shadow: 0 10px 6px -6px rgb(238, 1, 120);
-          box-shadow: 0 10px 6px -6px rgb(238, 1, 120);
+  -moz-box-shadow: 0 10px 6px -6px rgb(238, 1, 120);
+   box-shadow: 0 10px 6px -6px rgb(238, 1, 120);
 }
 .card-body {
   padding:0px !important;
@@ -267,10 +258,6 @@ cursor: pointer;
   .heart-img-icon{
     width: 7vw;
   }
-  .desk-icons {
-    font-size: 2.5vw;
-    margin-top: 5px!important;
-  }
   .mobile-menu {
     display: block;
   }
@@ -288,6 +275,42 @@ cursor: pointer;
     font-size: 5vh;
   }
 }
+@media only screen and (min-width: 275px) and (max-width: 800px) {
+ .search-icon{
+  font-size: 2.3vw;
+  margin-top: -1%;
+ } 
+ .link-btns {
+  font-size: 2vw;
+  width: 100%;
+}
+}
+@media only screen and (min-width: 275px) and (max-width: 1030px) {
+  .link-btns {
+  font-size: 2.5vw;
+  font-size: 2vh;
+  display: block;
+  border-radius: 20px;
+  } 
+  .discover-link {
+    padding-left:2%;
+  }
+}
+@media only screen and (min-width: 275px) and (max-width: 900px) {
+  .link-btns {
+    font-size: 3.8vw;
+    font-size: 1.7vh;
+    display: block;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 20px;
+  }
+}
+@media only screen and (min-width: 275px) and (max-width: 285px) {
+  .search-icon{
+   margin-top: 1%;
+  } 
+ }
 @media only screen and (min-width:600px) and (max-width: 900px) {
 .search-icon {
   margin-top: -2%;
@@ -300,14 +323,11 @@ cursor: pointer;
   .discover-content {
     padding-top: 6%;
   }
-  .desk-icons{
-   margin-top: 8px;
-  }
   .btns-container {
-    display: block;
+    display:inline-flex;
+    width: 100% !important;
   }
 }
-
 
 
 
